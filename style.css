@@ -61,3 +61,60 @@ a:hover{
     background-color: #FB8F1D;
     color: #FFFF;
 }
+.explore-travel{
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 0 0 0;
+}
+.explore-travel p{
+    margin: 40px 0 40px 0;
+}
+.explore-travel-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 120px; */
+
+}
+.explore-travel-input>div:last-child{
+    margin: 20px 0 0 0;
+}
+input{
+    height: 40px;
+}
+[placeholder="Activity"], [placeholder="Date"]{
+    margin: 0 0 0 20px;
+}
+
+.explore-travel-img{
+    width: 506px;;
+    height:483px;
+    margin: 20px 0 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/thousand-01\ 1.svg);
+}
+.btn{
+    border-radius: 5px;
+    margin: 50px 0 0 0;
+    width: 135px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #FB8F1D;
+}
+.btn-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+.btn-a:hover{
+    color: #FB8F1D;
+    background-color: #FFFF;
+    border:1px solid #FB8F1D;
+    border-radius: 5px;
+}
