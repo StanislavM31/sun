@@ -106,7 +106,7 @@ input{
     height:483px;
     margin: 20px 0 0 50px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: url(./assets/thousand-01\ 1.svg);
 }
 .btn{
@@ -132,4 +132,29 @@ input{
     background-color: #FFFF;
     border:1px solid #FB8F1D;
     border-radius: 5px;
+}
+.new-way{
+    display: flex;
+    margin: 250px 0 0 0;
+}
+.new-way-img{
+    width: 659px;
+    height: 534px;
+    background-image: url(./assets/Thousand-02\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.new-way-text{
+    width: 450px;
+    margin: 50px 0 0 100px;
+}
+.new-way-text h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+}
+.new-way-text p{
+    margin: 20px 0 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color:#7D7987;
 }
